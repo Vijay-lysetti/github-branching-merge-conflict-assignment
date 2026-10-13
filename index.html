@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Branching &amp; Merge Conflict Demo</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, sans-serif; color: #172033; background: #f3f6fb; }
+    body { max-width: 820px; margin: 4rem auto; padding: 0 1.5rem; }
+    main { background: white; border: 1px solid #dbe3ef; border-radius: 18px; padding: 2.5rem; box-shadow: 0 12px 35px #1b315014; }
+    h1 { margin-top: 0; color: #173f8a; }
+    .note { padding: 1rem; border-left: 4px solid #3275d9; background: #edf4ff; }
+    code { background: #eef1f6; padding: .15rem .35rem; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Git Branching &amp; Merge Conflicts</h1>
+    <p>This page is a small practice assignment for exploring Git branches and resolving a merge conflict.</p>
+    <div class="note"><strong>What is a branch?</strong> A branch lets you develop a change independently before merging it into the main line of work.</div>
+    <h2>Conflict resolution workflow</h2>
+    <ol>
+      <li>Create a feature branch from <code>main</code>.</li>
+      <li>Edit the same paragraph on both branches.</li>
+      <li>Merge the feature branch and inspect the conflict markers.</li>
+      <li>Combine the intended changes, then commit the resolution.</li>
+    </ol>
+    <p id="resolution"><strong>Resolution:</strong> A clear, reviewed change is ready to merge when both branch contributions have been considered.</p>
+  </main>
+</body>
+</html>
